@@ -1,0 +1,5 @@
+vega-datasets
+mesa
+streamlit
+pandas
+matplotlib==3.4.3
