@@ -16,7 +16,7 @@ yscale = alt.Scale(domain=(1.9, 4.55))
 bar_args = {'opacity': 0.3, 'binSpacing': 0}
 
 # Create a slider to select the range of data
-data_range = st.slider('Data Range', 0, len(source), (0, len(source)))
+data_range = st.slider('Data Range', 0, len(source), (0, len(source)), key='data_range')
 
 # Filter the data based on the selected range
 filtered_data = source[data_range[0]:data_range[1]]
